@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: warehouse-service
+
+grpc:
+  server:
+    port: 9090
+
+logging:
+  level:
+    root: INFO
+    ru.ylab.learn: DEBUG
+    net.devh.boot.grpc.server: INFO
