@@ -36,6 +36,7 @@ public class StockMapper {
         if (info == null) return StockResponse.getDefaultInstance();
         return StockResponse.newBuilder()
             .setProductId(info.getProductId())
+            .setProductName(info.getProductName())
             .setIsAvailable(info.isAvailable())
             .setQuantity(info.getQuantity())
             .build();

@@ -37,7 +37,6 @@ public class StockServiceGrpcImpl implements StockServiceGrpc {
 
         info.setQuantity(info.getQuantity() - quantity);
 
-        // Если товар закончился, меняем статус
         if (info.getQuantity() == 0) {
             info.setAvailable(false);
             log.warn("Товар {} закончился на складе!", productId);

@@ -1,6 +1,7 @@
 package ru.ylab.learn.warehouseservice.repository;
 
 import ru.ylab.learn.warehouseservice.model.StockInfo;
+
 import java.util.List;
 import java.util.Optional;
 

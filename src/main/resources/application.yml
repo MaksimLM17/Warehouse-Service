@@ -8,6 +8,7 @@ spring:
 grpc:
   server:
     port: 9090
+    health-service-enabled: false
 
 logging:
   level:
